@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Manrope', sans-serif;
+  src: url('/images/font/Manrope-ExtraLight.ttf');
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Manrope', sans-serif;
+  src: url('/images/font/Manrope-Light.ttf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Manrope', sans-serif;
+  src: url('/images/font/Manrope-Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Manrope', sans-serif;
+  src: url('/images/font/Manrope-Medium.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Manrope', sans-serif;
+  src: url('/images/font/Manrope-SemiBold.ttf');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Manrope', sans-serif;
+  src: url('/images/font/Manrope-Bold.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Manrope', sans-serif;
+  src: url('/images/font/Manrope-ExtraBold.ttf');
+  font-weight: 800;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+}
+
+ul.pagination {
+  list-style-type: none;
+}
+
+ul.pagination li {
+  display: inline-block;
+}
+
+ul.pagination li a {
+  padding: 8px 16px;
+}
+
+ul.pagination li.active a {
+  background-color: #469ddd;
+  border-radius: 2px;
+  color: white;
+}
+
+ul.pagination li a:hover {
+  background-color: #eaeaea;
+  border-radius: 2px;
+}
